@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp/login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="main1">
+            <span id ="validation1"></span>
+            <input class="signupForm" type="userName" name="userName" id="userName" placeholder="user name">
+            <span id ="validation2"></span>
+            <input class="signupForm" type="email" name="email" id="email" placeholder="Email">
+            <span id ="validation3"></span>
+            <input class="signupForm" type="password" name="password" id="password1" placeholder="Password">
+            <span id ="validation4"></span>
+            <input class="signupForm" type="password" name="password" id="ConfirmPassword"
+                placeholder="Confirm Password">
+            <span id ="validation5"></span>
+            <input class="signupForm" type="text" name="Address" id="address" placeholder="Address">
+            <span id ="validation6"></span>
+            <input class="signupForm" type="number" name="Phone" id="Phone" placeholder="Phone">
+            <span id ="validation7"></span>
+            <input class="signupForm" type="number" name="postalCode" id="Postalcode" placeholder="Postal code">
+            <span id ="validation8"></span>
+            <input class="signupForm" type="text" name="gender" id="gender" placeholder="Gender">
+            <span id ="validation9"></span>
+            <input class="signupForm" type="date" name="date of Birth" id="dateofbirth" placeholder="Date of Birth">
+            <span id ="validation10"></span>
+            <input type="file" name="file" id="ProfilePicture" placeholder="Profile Picture">
+            <button type="submit" id="sub" onClick="openpage()"> SignUp</button>
+            
+            <!-- <label for="" id="sGender">Select Gender</label><select name="" id="select">
+                <option selected="" disabled="" placeholder="">  Select the gender </option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="custom">Custom</option>
+            </select><br> -->
+
+            <!-- <label for="">Male</label> <input class="signupForm" type="radio" name="gender" id="gender" placeholder="Gender">
+           <label for="">Female</label> <input class="signupForm" type="radio" name="gender" id="gender" placeholder="Gender">
+           <label for="">Custom</label> <input class="signupForm" type="radio" name="gender" id="gender" placeholder="Gender"> -->
+
+            
+
+        </div>
+
+        <div id="popup" class="show">
+            <img src="https://th.bing.com/th/id/R.0f44aae56f9ccbf76d8d8c87f1beffed?rik=emyjWWn5o8ynsQ&riu=http%3a%2f%2fwww.pngplay
+            .com%2fwp-content%2fup
+            loads%2f2%2fTick-Transparent-Image.png&ehk=qD53jm0IjlWrF0GI3gNoS3amnN4rljeyyLVIdt%2fL7E8%3d&risl=&pid=ImgRaw&r=0"
+                alt="Right" width="60px" height="60px">
+
+            <h2 id="heading">Successfully Created Account:</h2><br>
+            <input type="email" placeholder="Email" name="email" class="input"><br><br>
+
+            <input type="password" placeholder="Password" class="input"><br>
+            <p>You don't have an account plz sign up <br> facebook/google:</p><br>
+            <a href="https://www.facebook.com/login.php">
+                <button class="fb"> facebook</button></a>
+            <button class="Google">Google</button><br><br>
+            <button type="ok" id="ok" onClick="closepage()">OK</button>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- =========================================================== -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
